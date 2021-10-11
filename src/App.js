@@ -1,18 +1,15 @@
 import React from 'react';
 import Header from './components/Header';
-// import Navigation from './components/Navigation';
-import About from './components/pages/About';
-import Project from './components/pages/Project';
+import PortfolioContainer from './components/PortfolioContainer';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
       <main>
-        <Header></Header>
-        <About></About>
-        <Project></Project>
-        <Footer></Footer>
+        <Header />
+        <PortfolioContainer />
+        <Footer />
       </main>
     </div>
   );

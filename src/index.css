@@ -17,7 +17,7 @@ code {
 :root {
   --text-color: #090925;
   --body-color: #d9dcd6;
-  --border-color: #73e4dc;
+  --border-color: #000000;
 }
 
 * {
@@ -134,13 +134,17 @@ header nav ul li a {
 }
 
 /* set two classes to be able to define images in About Me differently than other two content sections */
-.section-content, .section-about-me {
+.section-content, .section-about-me, .section-resume {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 75%;
   margin: 5px 50px 10px 30px;
   padding: 0;
+}
+
+.section-resume ul, li {
+  padding-left: 30px;
 }
 
 /* different border for headshot than for Work images, plus float applied and no opacity reduction on hover */
@@ -153,7 +157,7 @@ header nav ul li a {
 }
 
 .section-content img {
-  border: 5px solid var(--border-color);
+  border: 2px solid var(--border-color);
   width: 100%;
 }
 
