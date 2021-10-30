@@ -1,12 +1,12 @@
 import React from "react";
-import battersup from '../../../assets/batters-up.png';
-import gazette from '../../../assets/gazette.jpg';
-import umass from '../../../assets/umms.jpg';
-import e2 from '../../../assets/e2.jpg';
-import nutrition from '../../../assets/nutrition-finder.png';
+import battersup from '../../assets/batters-up.png';
+import gazette from '../../assets/gazette.jpg';
+import umass from '../../assets/umms.jpg';
+import e2 from '../../assets/e2.jpg';
+import nutrition from '../../assets/nutrition-finder.png';
 
 
-function Project() {
+function Portfolio() {
     return (
         <section id="work" className="info-container">
         <div className="section-header">
@@ -65,4 +65,4 @@ function Project() {
     );
 }
 
-export default Project;
+export default Portfolio;

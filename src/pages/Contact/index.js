@@ -12,7 +12,7 @@ function Contact() {
         console.log(formState);
     };
     return (
-        <section>
+        <section id="contact" className="info-container">
             <h1>Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>

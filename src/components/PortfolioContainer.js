@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
-import NavTabs from './Header/Navigation';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+import About from '../pages/About';
+import Portfolio from '../pages/Portfolio';
+import Resume from '../pages/Resume';
+import Contact from '../pages/Contact';
+import NavTabs from './NavTabs';
 
-function Portfolio() {
+function PageSwitch() {
   // Using useState, set the default value for currentPage to 'About'
   const [currentPage, handlePageChange] = useState('About');
 
   // The renderPage method uses a switch statement to render the appropriate current page
   const renderPage = () => {
     switch (currentPage) {
-      case 'Projects':
-        return <Projects />;
+      case 'Portfolio':
+        return <Portfolio />;
       case 'Resume':
         return <Resume />;
       case 'Contact':
@@ -33,4 +33,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default PageSwitch;

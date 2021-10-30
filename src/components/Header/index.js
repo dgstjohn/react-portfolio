@@ -1,11 +1,11 @@
 import React from "react";
-import NavTabs from './Navigation';
+import Nav from "../Nav";
 
 function Header() {
     return (
         <header>
             <h1>Don St. John</h1>
-            <NavTabs />
+            <Nav />
         </header>
     );
 }

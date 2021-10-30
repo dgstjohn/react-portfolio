@@ -1,5 +1,5 @@
 import React from "react";
-import dsjHeadshot from '../../../assets/dsj-headshot.jpg';
+import dsjHeadshot from '../../assets/dsj-headshot.jpg';
 
 function About() {
     return (
