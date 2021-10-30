@@ -243,10 +243,17 @@ header nav ul li a {
 }
 
 footer {
+  display: flex;
+  justify-content: space-around;
   color: var(--body-color);
   background-color: var(--text-color);
   width: 100%;
   padding: 20px 35px;
+}
+
+.logos img {
+  height: 32px;
+  padding: 0 20px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER (MAX WIDTH 980) */
