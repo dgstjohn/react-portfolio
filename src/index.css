@@ -201,7 +201,9 @@ input, textarea {
 
 .image-tab {
   padding: 10px 20px;
-  background-color: var(--border-color);
+  background-color: var(--body-color);
+  /* background-color: #73e4dc; */
+  border-left: 2px solid var(--border-color);
   position: absolute;
   bottom: 70px;
   /* used z-index to remove tab overlay from the half-scale reduction in opacity of the images on hover */
