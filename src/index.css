@@ -78,8 +78,8 @@ header nav ul li {
   display: inline-block;
   margin-left: 25px;
   /* set nav items with left/right padding and border bottom to extend underline slightly to either side */
-  padding: 0 10px 5px 10px;
-  border-bottom: 3px solid var(--body-color);
+  /* padding: 0 10px 5px 10px; */
+  /* border-bottom: 3px solid var(--body-color); */
 }
 
 header nav ul li a {
@@ -145,6 +145,26 @@ header nav ul li a {
 
 .section-resume ul, li {
   padding-left: 30px;
+}
+
+#contact-form label {
+  padding-left: 30px;
+  display: inline-block;
+  width: 150px;
+  vertical-align: text-top;
+
+}
+
+input, textarea {
+  width: 300px;
+}
+
+#contact-form button {
+  margin-left: 30px;
+}
+
+#temp-contact {
+  margin-left: 40px;
 }
 
 /* different border for headshot than for Work images, plus float applied and no opacity reduction on hover */

@@ -21,7 +21,7 @@ function Portfolio() {
                     <h4>HTML/CSS/JavaScript/Node.js/Heroku/Handlebars/Express.js</h4>
                 </div>
                 <a href="https://project-2-rs.herokuapp.com/" target="_blank" rel="noreferrer">
-                    <img src={battersup} alt="A picture of the Batter's Up team project homepage" />
+                    <img src={battersup} alt="The Batter's Up team project homepage" />
                 </a>
             </div>
             <div className="secondary-image">
@@ -30,7 +30,7 @@ function Portfolio() {
                     <h4>HTML/CSS/JavaScript</h4>
                 </div>
                 <a href="https://www.gazettenet.com/" target="_blank" rel="noreferrer">
-                    <img src={gazette} alt="A picture of the Daily Hampshire Gazette homepage" />
+                    <img src={gazette} alt="The Daily Hampshire Gazette homepage" />
                 </a>
             </div>
             <div className="secondary-image">
@@ -39,7 +39,7 @@ function Portfolio() {
                     <h4>HTML/CSS/JavaScript</h4>
                 </div>
                 <a href="https://www.umassmed.edu" target="_blank" rel="noreferrer">
-                    <img src={umass} alt="A picture of my design for the University of Massachusetts Medical School homepage" />
+                    <img src={umass} alt="My design for the University of Massachusetts Medical School homepage" />
                 </a>
             </div>
             <div className="secondary-image">
@@ -48,7 +48,7 @@ function Portfolio() {
                     <h4>HTML/CSS/JavaScript</h4>
                 </div>
                 <a href="https://archive.org/search.php?query=Electronic+Entertainment" target="_blank" rel="noreferrer">
-                    <img src={e2} alt="A picture of Electronic Entertainment magazine (now defunct); click to see copies at the Internet Archive" />
+                    <img src={e2} alt="Electronic Entertainment magazine (now defunct); click to see copies at the Internet Archive" />
                 </a>
             </div>
             <div className="secondary-image">
@@ -57,7 +57,7 @@ function Portfolio() {
                     <h4>HTML/CSS/JavaScript</h4>
                 </div>
                 <a href="https://dgstjohn.github.io/nutrition-finder/" target="_blank" rel="noreferrer">
-                <img src={nutrition} alt="A picture of the Nutrition Finder team project homepage" />
+                <img src={nutrition} alt="The Nutrition Finder team project homepage" />
                 </a>
             </div>
         </div>
