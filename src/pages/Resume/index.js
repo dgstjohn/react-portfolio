@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../assets/DSJ-resume.pdf";
 
 function Resume() {
     return (
@@ -9,7 +10,7 @@ function Resume() {
                 </h1>
             </div>
             <article className="section-resume">
-                <p>You can see more with my CV/resume here.
+                <p>You can see more with <a href={resume} download="DSJ-resume.pdf">my CV/resume</a>.
                     <br /><br />My software proficiencies include:
                     <br /><br /><ul>
                         <li>The full MERN stack:
