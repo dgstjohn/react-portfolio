@@ -6,7 +6,7 @@ function Nav() {
         <nav>
             <ul>
                 <li>
-                    <NavLink activeStyle={{ borderBottom:'3px solid #d9dcd6', padding: '0 10px 5px 10px' }} to="/">About Me</NavLink>
+                    <NavLink activeStyle={{ borderBottom:'3px solid #d9dcd6', padding: '0 10px 5px 10px' }} to="/about">About Me</NavLink>
                 </li>
                 <li>
                     <NavLink activeStyle={{ borderBottom:'3px solid #d9dcd6', padding: '0 10px 5px 10px' }} to="/portfolio">My Projects</NavLink>
